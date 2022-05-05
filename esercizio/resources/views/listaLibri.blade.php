@@ -9,7 +9,7 @@
 <body>
     @foreach ($libri as $item)
         <div class="card" >
-            {{ $item }}
+            {{ $item['title'] }}
         </div>
     @endforeach
 </body>
